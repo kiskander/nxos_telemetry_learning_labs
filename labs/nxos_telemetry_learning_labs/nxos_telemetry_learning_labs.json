@@ -1,0 +1,18 @@
+{
+  "labId": "nxos_telemetry_learning_labs",
+  "title": "Streaming Telemetry on Open NX-OS",
+  "slug": "Get Started with Streaming Telemetry on Open NX-OS",
+  "time": 25,
+  "byod": true,
+  "files": [
+    {"title": "1.md"},
+    {"title": "2.md"},
+    {"title": "3.md"}
+  ],
+  "tags": [
+    {"title": "NXOS"}
+  ],
+  "authors": [
+    {"name": "Armen Martirosyan", "email": "armartir@cisco.com"}
+  ]
+}
