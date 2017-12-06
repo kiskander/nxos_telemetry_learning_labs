@@ -2,7 +2,7 @@
   "labId": "nxos_telemetry_part1",
   "title": "Streaming Telemetry on Open NX-OS - Intro",
   "slug": "Get Started with Streaming Telemetry on Open NX-OS",
-  "time": 25,
+  "time": 40,
   "byod": false,
   "files": [
     {"title": "1.md"},
