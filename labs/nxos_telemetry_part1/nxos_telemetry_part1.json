@@ -1,0 +1,37 @@
+{
+  "labId": "nxos_telemetry_part1",
+  "title": "Streaming Telemetry on Open NX-OS - Intro",
+  "slug": "Get Started with Streaming Telemetry on Open NX-OS",
+  "time": 25,
+  "byod": false,
+  "files": [
+    {"title": "1.md"},
+    {"title": "2.md"},
+    {"title": "3.md"},
+    {"title": "4.md"},
+    {"title": "5.md"}
+  ],
+  "tags": [
+    {"title": "NETCONF"},
+    {"title": "YANG"},
+    {"title": "Networking"},
+    {"title": "SDN"},
+    {"title": "NX-OS"},
+    {"title": "Data Center"},
+    {"title": "Telemetry"}
+  ],
+  "related": [
+    {
+      "labId": "nxos_telemetry_part2",
+      "title": "Streaming Telemetry on Open NX-OS - BGP"
+    },
+    {
+      "labId": "nxos_telemetry_part3",
+      "title": "Streaming Telemetry on Open NX-OS - ELK"
+    }
+  ],
+  "authors": [
+    {"name": "Armen Martirosyan", "email": "armartir@cisco.com"},
+    {"name": "Hank Preston", "email": "hapresto@cisco.com"}
+  ]
+}
