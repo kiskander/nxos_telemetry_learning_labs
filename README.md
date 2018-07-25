@@ -14,13 +14,31 @@ The goal of these learning labs is to ensure a 'hands-on' learning approach rath
 
 When a network device connected to a server that's  configured to receive the stream of data, it is what's often referred to as streaming telemetry. Streaming telemetry enables the push model, which provides near real-time access to monitoring data (based on how often the devices push data), and streams information to a collector.
 
-## Contributing
+If you need more help, you can reach out to DevNet through one of our [support options](https://developer.cisco.com/site/devnet/support/).
+
+## Preview Learning Lab Markdown locally
+
+You can preview how the Markdown renders by using a pre-built Docker image. The `Makefile` in the root of the repository lets you run `make preview` to view the output HTML.
+
+1. Make sure you have Docker installed locally. If not, [install Docker](https://docs.docker.com/install/) for your operating system.
+```
+$ docker -v
+```
+1. In the root of the repository, run:
+```
+$ make preview
+```
+1. Open a browser window with the URL: `http://localhost:9000`.
+1. Click a folder to find the Markdown file you want to preview.
+1. When you are done previewing, type `Ctrl+C` to stop running the Docker container.
+
+## Contributor guidelines
 
 These learning modules are for public consumption, so you must ensure that you have the rights to any content that you contribute.
 
 Write your content in Markdown. DevNet staff reviews content according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
 
-#### Publishing Requirements
+#### Publishing requirements
 
 To create and publish a new lab, take the following steps:
 - Add a new folder under `labs`.
@@ -33,16 +51,16 @@ A DevNet reviewer then creates a release on the repository with the latest `mast
 
 #### Editors
 
-You can write Markdown in a plain text editor, but there are many desktop and Web-based options that allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for several reasons:
-- Lightweight environment for coding (or writing Markdown)
-- Available on Mac OS, Linux or Windows
-- Github Client integration
-- Great Markdown preview features native in the editor
-- Intuitive operation and structure
+You can write Markdown in a plain text editor, and desktop and Web-based options allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for these reasons:
+- Lightweight environment for coding (or writing Markdown).
+- Available on macOS, Linux, or Windows.
+- Github Client integration.
+- Great Markdown preview features native in the editor.
+- Intuitive operation and structure.
 
 You can validate a JSON file by using the [online formatter and validator](https://jsonformatter.curiousconcept.com).
 
-## Getting Involved
+## Getting involved
 
 * If you'd like to contribute to an existing lab, refer to [contributing.md](contributing.md).
 * If you're interested in creating a new Cisco DevNet Learning Lab, please contact a DevNet administrator for guidance.
