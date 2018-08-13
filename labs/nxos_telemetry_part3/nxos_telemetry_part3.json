@@ -4,6 +4,7 @@
   "slug": "Visualize Telemetry data with Kibana and ELK Stack",
   "time": 25,
   "byod": false,
+  "active": false,
   "files": [
     {"title": "1.md"},
     {"title": "2.md"},

@@ -4,6 +4,7 @@
   "slug": "Get Started with Streaming Telemetry on Open NX-OS",
   "time": 40,
   "byod": false,
+  "active": false,
   "files": [
     {"title": "1.md"},
     {"title": "2.md"},
